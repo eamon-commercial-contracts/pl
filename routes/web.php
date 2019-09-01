@@ -13,6 +13,7 @@
 
 Route::get('/loop', 'LoopController@index');
 Route::get('/fibonacci', 'FibonacciController@index');
+Route::get('/fibonacci', 'FibonacciController@index');
 
 
 Route::get('/', function () {
