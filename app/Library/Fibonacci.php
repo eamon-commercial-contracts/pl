@@ -18,6 +18,11 @@ class Fibonacci
         $step = 0;
         while ($step < $n){
 
+            // if step reaches the number then return value
+            if(($step+1) == $n){
+                return $n1;
+            }
+
             // adds next number in sequence
             $n3 = $n1 + $n2;
 
