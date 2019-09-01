@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/loop', 'LoopController@index');
+
+
 Route::get('/', function () {
+
     return view('welcome');
 });
