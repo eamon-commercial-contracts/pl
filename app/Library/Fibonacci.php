@@ -14,7 +14,20 @@ class Fibonacci
         $n2 = 1;
         $n3 = 0;
 
-        
+        // loop forward to fetch next numbers
+        $step = 0;
+        while ($step < $n){
+
+            // adds next number in sequence
+            $n3 = $n1 + $n2;
+
+            // this is our fibonacci number
+            $n1 = $n2;
+
+            // store for next loop
+            $n2 = $n3;
+            $step++;
+        }
     }
 
 }
