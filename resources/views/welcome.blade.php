@@ -74,7 +74,6 @@
                 <div class="links">
                     <a href="/loop">Loop</a>
                     <a href="/magic1">MagicGetterSetter</a>
-                    <a href="/magic2">MagicGetterSetter2</a>
                     <a href="/fibonacci">Fibonacci</a>
                 </div>
             </div>
